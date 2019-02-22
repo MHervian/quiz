@@ -1,0 +1,43 @@
+{
+    "soal" : [{
+      "nomor": 1,
+      "soal": "Who is Simo Hayha?",
+      "answer": "The Winter War Hero from Finland as a sniper, no-scope.",
+      "option": [
+          "The Winter War Hero from Finland as a sniper, no-scope.",
+          "The originator of industry revolution in UK", 
+          "The Scientist who invented Penicillin"
+      ],
+      "score": 35 
+    },{
+      "nomor": 2,
+      "soal": "Which one of food here is from Italy?",
+      "answer": "Pizza",
+      "option": [
+          "Burger", 
+          "Kebab", 
+          "Pizza"
+      ],
+      "score": 13
+    },{
+      "nomor": 3,
+      "soal": "Who the heck is Lenin?",
+      "answer": "The revolitionist of communism in Russia",
+      "option": [
+          "The communist resvolutionary in Russia Empire",
+          "A General who substituted Zhukov in WW2", 
+          "The Cuban Dictator and friend with Che"
+      ],
+      "score": 39
+    },{
+      "nomor": 4,
+      "soal": "Twenty Five Gundams + 24 Patlabors",
+      "answer": "Yeah, Add more collection here",
+      "option": [
+          "Forty nine robots here", 
+          "Yeah, Add more collection here", 
+          "For what?"
+      ],
+      "score": 13
+    }]
+}

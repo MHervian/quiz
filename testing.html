@@ -1,0 +1,49 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tempat Testing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        
+    </style>
+</head>
+<body>
+
+    <button id="button">Click Me</button>
+    <button id="button-lain">Click Me Too</button>
+
+    <div class="apa">
+        Disini ada tulisan.
+    </div>
+</body>
+<script>
+
+    var ada = 1;
+
+    // add event for button id
+    document.getElementById('button').addEventListener('click', function() {
+        if (ada) {
+            document.getElementById('button-lain').style.display = 'none';
+            document.getElementById('button-lain').removeEventListener('click', button_lain);
+            console.log('Event listener has been removed');
+
+            ada = 0;
+        } else {
+            document.getElementById('button-lain').style.display = 'inline';
+            
+            ada = 1;
+        }
+    });
+
+    // add event for button-lain id
+    document.getElementById('button-lain').addEventListener('click', button_lain);
+
+    // fungsi tombol click button-lain
+    function button_lain() {
+        console.log('Ini terklik');
+    }
+
+</script>
+</html>

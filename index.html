@@ -1,0 +1,38 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simple Quiz Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    
+    <div id="opening" class="op-content">
+        <h1>Press Button to</h1>
+        <button id="btnStart" class="btn-start">Start</button>
+    </div>
+
+    <div id="question" class="quiz-content"></div>
+
+    <div id="finish" class="finish-content">
+        <h1>Well Done!</h1>
+        <p>Now let's press the button to get the score.</p>
+        <button class="btn-proceed">Process</button>
+    </div>
+
+    <div id="score" class="score-content">
+        <h1>Your score</h1>
+        <span id="points">100</span>
+        <p id="points-stat">Well Done it!</p>
+        <div class="btn-group-2">
+            <button class="btn-restart">Restart</button>
+            <!--button class="btn-exit">Exit</button-->
+        </div>
+    </div>
+
+</body>
+<script src="json_request.js"></script>
+<script src="index_ui.js"></script>
+</html>
